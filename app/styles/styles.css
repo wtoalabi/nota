@@ -1,0 +1,149 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "FiraCode";
+  src: url(./font/FiraCode-Regular.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FiraCode-Retina";
+  src: url(./font/FiraCode-Retina.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "FiraCode", serif;
+}
+
+.main-container, .text-box {
+  height: inherit;
+  color: inherit;
+  background-color: inherit;
+}
+
+.main-container {
+  padding: 5px 3px 5px 15px;
+}
+
+.text-box {
+  font-family: "FiraCode", serif;
+  font-size: inherit;
+  letter-spacing: 1px;
+  line-height: 20px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 0;
+  outline: none;
+  resize: none;
+}
+
+.preferences {
+  background: #fbf0f0;
+  border-radius: 10px;
+  width: 50vw;
+  position: fixed;
+  left: 25vw;
+  top: 10vh;
+  flex-direction: column;
+  justify-content: space-between;
+  display: none;
+}
+
+.preferences__title {
+  padding: 11px;
+  color: rgba(0, 43, 54, 1);
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  border-bottom: #b3adad solid 1px;
+}
+
+.preferences__form {
+}
+
+.preferences__buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 20px;
+}
+
+.preferences__save, .preferences__cancel {
+  margin: .375rem;
+  background-color: transparent;
+  border-radius: 4px;
+  line-height: 1.375;
+  padding: .55rem 1.5rem;
+  font-weight: 700;
+  color: black;
+  cursor: pointer;
+}
+
+.preferences__save {
+  border: 2px solid #576095;
+}
+
+.preferences__cancel {
+  border: 2px solid brown;
+}
+.save_close{
+  border-color: #57a757;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 25px;
+  margin: 5px 0;
+}
+
+.row-8 {
+  flex: 4;
+  color: black;
+}
+
+.row-4 {
+  flex: 2;
+}
+
+select {
+  outline: none;
+  outline-offset: unset;
+  background-repeat: no-repeat;
+  background-size: 1.5rem 1rem;
+  background-position: right center;
+  border: 1px solid #c0c8c9;
+  border-radius: 4px;
+  padding: .75rem;
+  margin: .375rem;
+  background-color: transparent;
+  font: inherit;
+}
+.preferences__selectPath-text{
+  cursor: pointer;
+  color: #002b36;
+}
+
+.current-directory-path {
+  color: #002b36;
+  font-size: .7rem;
+}
+.no_save_alert{
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  padding: 10px;
+  background: #67678070;
+  border-radius: 17px;
+  margin: 10px 0;
+  color: #a0b3b3;
+  display: none;
+}

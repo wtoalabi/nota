@@ -1,0 +1,24 @@
+{
+  "name": "nota",
+  "version": "1.0.0",
+  "description": "nota...take note differently",
+  "productName": "nota",
+  "main": "main.js",
+  "author": "Wale Alabi",
+  "license": "MIT",
+  "appId": "wtoalabi.nota.com",
+  "scripts": {
+    "build": "electron-packager . --overwrite --asar --no-prune --out=output --icon=icons/icon.ico",
+    "start": "electron .",
+    "sstart": ".\\node_modules\\electron\\dist\\electron.exe C:\\laragon\\electron\\nota\\main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "electron": "^7.1.1"
+  },
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron-packager": "^14.1.0",
+    "electron-reload": "^1.5.0"
+  }
+}

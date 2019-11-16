@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'unsafe-inline';connect-src *">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>nota</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/animate.css">
+</head>
+<body>
+<section class="preferences">
+  <div class="preferences__title">
+    Preferences...
+  </div>
+  <form action="#">
+  <div class="preferences__form">
+    <div class="row">
+      <div class="row-8">
+        Background Color
+      </div>
+      <div class="row-4">
+        <label for="backgroundColor"></label>
+        <select name="backgroundColor" id="backgroundColor">
+          <option value="#002b36">Dark</option>
+          <option value="#ffffff">White</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="row-8">
+        Text Color
+      </div>
+      <div class="row-4">
+        <label for="color"></label>
+        <select name="color" id="color">
+          <option value="#002b36">Dark</option>
+          <option value="#ffffff">White</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="row-8">
+        Font Size
+      </div>
+      <div class="row-4">
+        <label for="fontSize"></label>
+        <select name="fontSize" id="fontSize">
+          <option value="10px">10 points</option>
+          <option value="12px">12 points</option>
+          <option value="14px">14 points</option>
+          <option value="16px">16 points</option>
+          <option value="24px">24 points</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="row-8">
+        <div>
+          <div>Preferred Save Path</div>
+          <small class="current-directory-path"></small>
+        </div>
+      </div>
+      <div class="row-4">
+        <label for="preferredDirectoryPath"></label>
+        <div class="preferences__selectPath">
+          <div class="preferences__selectPath-text">Select Path</div>
+        </div>
+        <input class="preferences__selectedPath" type="hidden" name="preferredDirectoryPath" id="preferredDirectoryPath" value="desktop">
+      </div>
+    </div>
+  </div>
+  <div class="preferences__buttons">
+    <button class="preferences__cancel">Cancel</button>
+    <div>
+      <button type="submit" class="preferences__save">Save</button>
+      <button type="submit" class="preferences__save save_close">Save & Close</button>
+    </div>
+  </div>
+  </form>
+</section>
+<div class="main-container">
+  <label>
+    <textarea class="text-box" autofocus></textarea>
+  </label>
+  <div class="no_save_alert animated bounceInUp">
+    No need to save! ;)
+  </div>
+</div>
+</body>
+</html>
+
+<script src="renderer.js"></script>
