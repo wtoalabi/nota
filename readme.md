@@ -17,6 +17,12 @@ Features:
 
 * Open Source. You want to extend nota, or even fork it? You can go ahead. The software is free. As in free lunch. 
 
+<div align="center">
+  <p><img src="./dist-images/1.png"></p>
+  <p><img src="./dist-images/2.png"></p>
+  <p><img src="./dist-images/3.png"></p>
+  <p><img src="./dist-images/4.png"></p>
+</div>
 _**nota is available on Windows for now, because that is the OS that I have. You can download the source code and compile it to any of other popular platforms like Linux and macOS._** 
 
 ## License
