@@ -18,3 +18,6 @@ Features:
 * Open Source. You want to extend nota, or even fork it? You can go ahead. The software is free. As in free lunch. 
 
 _**nota is available on Windows for now, because that is the OS that I have. You can download the source code and compile it to any of other popular platforms like Linux and macOS._** 
+
+## License
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bl00mber/alarm-cron/blob/master/LICENSE)
