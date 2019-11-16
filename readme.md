@@ -23,7 +23,8 @@ Features:
   <p><img src="./dist-images/3.png"></p>
   <p><img src="./dist-images/4.png"></p>
 </div>
-_**nota is available on Windows for now, because that is the OS that I have. You can download the source code and compile it to any of other popular platforms like Linux and macOS._** 
+
+**_nota is available on Windows for now, because that is the OS I have. You can download the source code and compile it to any of other popular platforms like Linux and macOS._**
 
 ## License
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bl00mber/alarm-cron/blob/master/LICENSE)
